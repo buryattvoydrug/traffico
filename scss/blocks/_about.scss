@@ -1,0 +1,15 @@
+.about{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 161px;
+  .text-block{
+    padding-top: 70px;
+    max-width: 570px;
+    p{
+      max-width: 470px;
+    }
+    .question{
+      margin-top: 66px;
+    }
+  }
+}

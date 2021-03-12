@@ -1,0 +1,34 @@
+.us{
+  margin-top: 180px;
+  position: relative;
+  .arrows{
+    position: absolute;
+    top:15px;
+    right:0;
+  }
+  .clients-block{
+    display: flex;
+    width: 1780px;
+    .client__item{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .person{
+        display: flex;
+        align-items: center;
+        img{
+          margin-right: 20px;
+        }
+      }
+    }
+    .client__item:first-child{
+      width: 300px;
+      margin-right: 80px;
+    }
+    .client__item:not(:first-child){
+      margin-right: 20px;
+      width: 420px;
+      height: 360px;
+    }
+  }
+}
