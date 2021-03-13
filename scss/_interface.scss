@@ -101,3 +101,47 @@ header .nav__item:last-child a{
   justify-content: center;
   border-radius:40px;
 }
+@media (max-width:1170px){
+  h2{
+    margin-bottom: 25px;
+  }
+  .nav__item a,
+  .get{
+    padding: 13px 15px;
+    border-radius: 3px;
+    img{
+      height: 8px;
+      margin-left: 16px;
+    }
+  }
+  header .nav__item:last-child a{
+    background: transparent;
+  }
+  .question{
+    padding: 40px 30px;
+  }
+  .tab-title{
+    padding: 20px 22px;
+    .plus{
+      width: 12px;
+      &::after{
+        width: 12px;
+      }
+    }
+  }
+  .arrows{
+    display: none;
+  }
+  .client__item:not(:first-child){
+    padding: 45px 30px 40px;
+    .person img{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .login{
+    input{
+      padding: 15px 0 15px 30px ;
+    }
+  }
+}

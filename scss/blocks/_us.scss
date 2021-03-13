@@ -32,3 +32,25 @@
     }
   }
 }
+@media(max-width:1170px){
+  .us{
+    margin-bottom: 70px;
+    h2{
+      margin-bottom: 150px;
+    }
+    margin-top: 50px;
+    .clients-block{
+      width: 800px;
+      .client__item:first-child{
+        position: absolute;
+        top:60px;
+        width: 200px;
+      }
+      .client__item:not(:first-child){
+        margin-right: 15px;
+        width: 250px;
+        height: 240px;
+      }
+    }
+  }
+}

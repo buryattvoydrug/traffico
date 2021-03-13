@@ -10,3 +10,16 @@
     max-width: 470px;
   }
 }
+@media(max-width:1170px){
+  .how{
+    margin-bottom: 80px;
+    flex-direction: column-reverse;
+    img{
+      margin-left: 0;
+    }
+    .text-block{
+      padding-top: 0;
+      max-width:85%;
+    }
+  }
+}
